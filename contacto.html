@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Soluciones en Ingeniería</title>
+</head>
+
+<body class="contenedor-contacto">
+    <header class="header">
+        <nav class="menu">
+            <ul>
+                <li> <a href="./index.html">Inicio</a> </li>
+                <li> <a href="./nosotros.html">Nosotros</a> </li>
+                <li> <a href="./servicios.html">Servicios</a> </li>
+                <li> <a href="./proyectos.html">Proyectos</a> </li>
+                <li> <a href="./contacto.html">Contacto</a> </li>
+            </ul>
+        </nav>
+    </header>       
+            <section id="mapa" class="border">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6810.228293739082!2d-64.184674!3d-31.410981!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1646709054067!5m2!1ses-419!2sar"
+                    width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+            <section id="contacto" class="border">
+                
+                <h2 class="titulo-formulario">COMPLETE EL FORMULARIO</h2>
+                <h3>Envíe un correo electrónico o complete el siguiente formulario para contactarnos.</h3>
+                <form id="form">
+                    <!-- Nombre -->
+                    <p>
+                        <input type="text" name="nombre" placeholder="Indique su nombre" id="nombre" required>
+                    </p>
+                  
+                    <!-- Email -->
+                    <p>
+                        <input type="email" name="correo" placeholder="Su email" id="correo" required>
+                    </p>
+                     <!-- Teléfono -->
+                     <p>
+                        <input type="email" name="correo" placeholder="Su teléfono" id="correo" required>
+                    </p>
+                    <!--estado-->
+                    <p>
+                        <select name="estado">
+                            <option value="1">Soltero/a</option>
+                            <option value="2">Casado/a</option>
+                            <option value="3">Divorciado/a</option>
+                            <option value="4">Viudo/a</option>
+                        </select>
+                    </p>
+                    <p><label>¿Desea recibir el Newsletter?</label><input type="checkbox" name="checkbox" id="cbox1">
+                    </p>
+
+                    <!-- Mensaje -->
+                    <p><label for="mensaje">Ingrese su mensaje:</label> </p>
+                    <textarea name="mensaje" cols="30" rows="10" placeholder="Hola, quisiera info." id='mensaje'
+                        required></textarea><br><br>
+                    <!-- Boton -->
+                    <input type="reset" value="Limpiar formulario">
+                    <input type="submit" id="button" value="Enviar formulario">
+
+
+                </form>
+
+            </section>
+            <section id="datos-contacto" class="border">
+                <h2 class="titulo-datos-contacto">DATOS DE CONTACTO</h2>
+                <h3>Caparroz Villada 898 4ºB. CBA</h3>
+                <h3>+54 (0351) 112-9999</h3>
+                <h3>info@solucionesIngenieria.com.ar</h3>
+            </section>
+       
+        <footer>
+            <p> &copy Pablo Manrique</p>
+            <p>Creado por la Comisión <span class="blue">2835</span></p>
+            <p>Estudiantes de <a href="https://www.coderhouse.com/">Coderhouse</a> </p>
+        </footer>
+
+
+
+</body>
+
+</html>
